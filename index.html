@@ -1,0 +1,41 @@
+
+<!doctype html>
+<head>
+  <title>Jquerry</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+  <script src="jquerry.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h2>Produkte eingeben</h2>
+  <div class="Rahmen">
+    <button id="einaus">Ein-/Ausblenden</button>
+    <button onclick="addRow()">Zeile hinzufügen</button>
+      <table id="t1" class="Tabelle">
+        <thead class="thead">
+          <tr>
+            <th class="border">Produkt ID</th>
+            <th class="border">Produkt Name</th> 
+            <th class="border">Preis in €</th>
+          </tr>
+        </thead>
+        <tbody id="t2" class="tbody">
+          <tr>
+            <td><input type="text" class="border"> </td>
+            <td><input type="text" class="border"> </td> 
+            <td><input type="text" class="border"> </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+              <td></td>
+              <td></td> 
+              <td><input type="text" id="ergebnis" class="border"> </td>
+            </tr>
+        </tfoot>
+    </table>
+  </div>
+
+</body>
+</html>   

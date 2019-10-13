@@ -1,0 +1,28 @@
+body {
+  background: #696969;
+  padding: 10% 35%;
+  margin: 0px;
+}
+.Rahmen {
+  border-radius: 15px;
+  padding: 15px 10px;
+  background: #a9a9a9;
+  width: 510px;
+  text-align: left;
+}
+.Tabelle {
+  margin-top: 15px;
+}
+.border {
+  border: grey 2px solid;
+}
+.result {
+  margin-left: 340px;
+  width: 162px;
+  border: grey 2px solid;
+}
+
+h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
